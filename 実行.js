@@ -1,32 +1,12 @@
 document.onreadystatechange = function () {
 	if (document.readyState === "interactive") {
 		頭実行();
-		// let кнопка = document.createElement("button");
-		// кнопка.innerHTML = "заadsfffffffffff";
-		// document.body.insertAdjacentElement("afterbegin", кнопка);
-		// кнопка.addEventListener("click", () => {
-		// 	aaaaaaaaaa();
-		// });
 	}
 };
 
 document.addEventListener("virtual-refresh", function () {
 	頭実行();
 });
-
-// async function aaaaaaaaaa() {
-// 	let a = await fetch("http://localhost:3000", {
-// 		id: 14,
-// 		method: "GET",
-// 		headers: {
-// 			"Content-Type": "application/json; charset=utf-8",
-// 		},
-// 		// body: JSON.stringify(分析),
-// 	});
-// 	console.log("asdf");
-// }
-
-// aaaaaaaaaa();
 
 async function 頭実行() {
 	let 管理所HTML = `
