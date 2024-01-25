@@ -1,3 +1,6 @@
+///ну і ну
+
+
 document.onreadystatechange = function () {
 	if (document.readyState === "interactive") {
 		頭実行();
